@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 3.125rem auto 0 auto;
+  font-family: Sacramento, cursive;
+  font-size: 5.625rem;
+  color: hsl(195, 62%, 45%);
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.75rem;
+  color: #f16f6f;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: hsl(195, 62%, 45%);
+}
+
+a {
+  color: hsl(195, 62%, 45%);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 0 25px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  color: #40514E;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+hr {
+  border-top: 0.5rem dotted #EAF6F6
+    /*#cdd5e0*/
+  ;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin: 75px auto;
+  width: 5%;
+}
+
+.top-container {
+  background-color: hsl(197, 71%, 85%);
+  position: relative;
+  padding-top: 100px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.subtitle {
+  margin-top: 20px;
+  margin-bottom: 73px;
+  font-size: 1.25rem;
+  color: hsl(195, 62%, 45%);
+}
+
+.middle-container {
+  margin-top: 75px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.bottom-container {
+  margin-top: 75px;
+  margin-bottom: 0px;
+  /*background-color: #66BFBF;*/
+  background-color: hsl(195, 62%, 65%);
+  padding-top: 60px;
+}
+
+.bottom-container p {
+  margin-bottom: 0;
+  padding: 20px 0;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 425px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 190px;
+  top: 160px;
+}
+
+.forest-container {
+  width: 415px;
+  height: 387px;
+  margin: auto;
+}
+
+.trees1 {
+  position: absolute;
+  left: 291px;
+  bottom: 0;
+}
+
+.coffee-shop {
+  position: absolute;
+  left: 380px;
+  bottom: 0;
+}
+
+.pizzeria {
+  position: absolute;
+  left: 206px;
+  bottom: 0;
+}
+
+.lufkin-sign {
+  position: absolute;
+  left: 666px;
+  bottom: 0;
+}
+
+.church {
+  position: absolute;
+  left: 950px;
+  bottom: 0;
+}
+
+.trees2 {
+  position: absolute;
+  left: 1042px;
+  bottom: 0;
+}
+
+.barbershop {
+  position: absolute;
+  left: 1125px;
+  bottom: 0;
+}
+
+.computer-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.seo-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, hsl(195, 70%, 60%), hsl(195, 70%, 45%));
+  background-image: -moz-linear-gradient(top, hsl(195, 70%, 60%), hsl(195, 70%, 45%));
+  background-image: -ms-linear-gradient(top, hsl(195, 70%, 60%), hsl(195, 70%, 45%));
+  background-image: -o-linear-gradient(top, hsl(195, 70%, 60%), hsl(195, 70%, 45%));
+  background-image: linear-gradient(to bottom, hsl(195, 70%, 60%), hsl(195, 70%, 45%));
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  line-height: 5;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, hsl(200, 70%, 55%), hsl(200, 70%, 40%));
+  background-image: -moz-linear-gradient(top, hsl(200, 70%, 55%), hsl(200, 70%, 40%));
+  background-image: -ms-linear-gradient(top, hsl(200, 70%, 55%), hsl(200, 70%, 40%));
+  background-image: -o-linear-gradient(top, hsl(200, 70%, 55%), hsl(200, 70%, 40%));
+  background-image: linear-gradient(to bottom, hsl(200, 70%, 55%), hsl(200, 70%, 40%));
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+
+@media (max-width: 375px) {
+  .desktop {
+    display: none;
+  }
+  .top-container {
+    background-image: url("../images/bg-lufkin-landscape-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+
+  .top-cloud {
+    position: absolute;
+    top: 60px;
+    right: -40px;
+  }
+
+  .bottom-cloud {
+    left: -40px;
+    bottom: 325px;
+  }
+}
