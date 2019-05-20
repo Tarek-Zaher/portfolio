@@ -105,8 +105,11 @@ hr {
 
 .skill-row {
   width: 50%;
-  margin: 50px auto;
+  margin: 0px auto 50px auto;
   text-align: left;
+  padding: 5%;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #cbdee6;
 }
 
 .bottom-cloud {
