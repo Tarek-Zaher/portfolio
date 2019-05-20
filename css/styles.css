@@ -43,14 +43,15 @@ p {
 }
 
 hr {
-  border-top: 0.5rem dotted #EAF6F6
+  border-top: 0.5rem dotted #cbdee6
+    /* #EAF6F6 */
     /*#cdd5e0*/
   ;
   border-bottom: none;
   border-left: none;
   border-right: none;
-  margin: 75px auto;
-  width: 5%;
+  margin: 50px auto;
+  width: 75px;
 }
 
 .top-container {
@@ -104,7 +105,7 @@ hr {
 
 .skill-row {
   width: 50%;
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: left;
 }
 
@@ -120,7 +121,7 @@ hr {
   top: 160px;
 }
 
-.forest-container {
+/* .forest-container {
   width: 415px;
   height: 387px;
   margin: auto;
@@ -166,7 +167,7 @@ hr {
   position: absolute;
   left: 1125px;
   bottom: 0;
-}
+} */
 
 .computer-image {
   width: 25%;
@@ -249,5 +250,30 @@ hr {
   .bottom-cloud {
     left: -40px;
     bottom: 325px;
+  }
+
+  .profile {
+    width: 80%;
+  }
+
+  .skill-row {
+    width: 80%;
+    text-align: center;
+  }
+
+  .computer-image {
+    width: 80%;
+    float: none;
+    margin: 0 10%;
+  }
+
+  .seo-image {
+    width: 80%;
+    float: none;
+    margin: 0 10%;
+  }
+
+  .contact-me {
+    width: 80%;
   }
 }
