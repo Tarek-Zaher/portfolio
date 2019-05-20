@@ -108,7 +108,7 @@ hr {
   width: 50%;
   margin: 0 auto 50px auto;
   text-align: middle;
-  padding: 5px 0;
+  padding: 2%;
   border-radius: 25px;
   box-shadow: 0 0 10px #cbdee6;
 }
@@ -247,6 +247,7 @@ hr {
 
   .project-row {
     width: 80%;
+    padding: 5%;
   }
 
   .contact-me {
