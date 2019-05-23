@@ -1,6 +1,6 @@
 #update tablet responsive media query
   -add transition for clouds?
 
-#Change Cursive Font or Increase font-size on mobile
+#fix h1 break on mobile (font?)
 
-# add scroll animations
+#FIX FOOTER
