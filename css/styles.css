@@ -117,12 +117,14 @@ hr {
   position: absolute;
   left: 200px;
   bottom: 425px;
+  transition: 2s;
 }
 
 .top-cloud {
   position: absolute;
   right: 190px;
   top: 90px;
+  transition: 2s;
 }
 
 .computer-image {
@@ -193,7 +195,7 @@ hr {
 
 /* RESPONSIVE */
 
-
+/* MOBILE */
 @media (max-width: 425px) {
   .top-container {
     background-image: url("../images/bg-lufkin-landscape-mobile.svg");
@@ -243,6 +245,36 @@ hr {
     width: 80%;
     float: none;
     margin: 0 10%;
+  }
+
+  .project-row {
+    width: 80%;
+    padding: 5%;
+  }
+
+  .contact-me {
+    width: 80%;
+  }
+}
+
+/* TABLET */
+@media (min-width: 426px) and (max-width: 1000px) {
+  .top-cloud {
+    position: absolute;
+    top: 60px;
+    right: -40px;
+  }
+
+  .bottom-cloud {
+    left: -40px;
+    bottom: 425px;
+  }
+  .profile {
+    width: 60%;
+  }
+
+  .skill-row {
+    width: 80%;
   }
 
   .project-row {
