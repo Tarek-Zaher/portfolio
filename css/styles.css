@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   background-color: hsla(198, 71%, 85%, 1);
+  -webkit-text-size-adjust: 100%;
 }
 
 .topnav {
@@ -40,8 +41,10 @@ body {
 
 h1 {
   margin: 3.125rem auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
+  /* font-family: 'Sacramento', cursive; */
+  /* font-size: 5.625rem; */
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
   color: hsl(195, 62%, 45%);
   line-height: 1.25;
 }

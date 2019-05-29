@@ -1,6 +1,6 @@
 #fix h1 break on mobile (font?)
 
-#navbar
+=navbar
 
 #style principles collapsables
   -borders
