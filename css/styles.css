@@ -2,11 +2,45 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  background-color: hsla(198, 71%, 85%, 1);
+}
+
+.topnav {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  transition: top 0.3s;
+  z-index: 100;
+  text-align: center;
+  background-color:	hsla(198, 71%, 85%, .75);
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a {
+ color: hsl(195, 62%, 45%);
+ text-decoration: none;
+ font-size: 1.15rem;
+ padding: 20px 20px;
+ display: inline-block;
+ list-style-type: none;
+ margin: 0;
+}
+
+.topnav a:hover {
+ color: black;
+ background-color:	hsla(198, 71%, 85%, 1);
+ text-decoration: none;
+ cursor: pointer;
 }
 
 h1 {
   margin: 3.125rem auto 0 auto;
-  font-family: Sacramento, cursive;
+  font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   color: hsl(195, 62%, 45%);
   line-height: 1.25;
@@ -44,7 +78,7 @@ hr {
 
 .top-container {
   position: relative;
-  padding-top: 100px;
+  padding-top: 99px;
   width: 100%;
   overflow-x: hidden;
   background-image: url("../images/lufkin-landscape-desktop.svg");
@@ -65,12 +99,25 @@ hr {
   color: hsl(195, 62%, 45%);
 }
 
+.subtitle-link {
+  color: hsl(195, 62%, 45%);
+  text-decoration: none;
+  border-bottom: 2px dotted hsl(195, 62%, 45%);
+}
+
 .middle-container {
-  margin-top: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: white;
 }
 
 .profile {
   width: 30%;
+  margin: auto;
+}
+
+.principles {
+  width: 50%;
   margin: auto;
 }
 
@@ -81,7 +128,6 @@ hr {
 }
 
 .bottom-container {
-  margin-top: 75px;
   margin-bottom: 0;
   /*background-color: #66BFBF;*/
   background-color: hsl(195, 62%, 65%);
@@ -93,6 +139,44 @@ hr {
   padding: 20px 0;
   color: #EAF6F6;
   font-size: 0.75rem;
+}
+
+.collapsible {
+  background-color: #BEE4F4;
+  cursor: pointer;
+  padding: 0 3%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 1.17rem;
+}
+
+.active, .collapsible:hover {
+  background-color: #aad9ee;
+}
+
+.collapsible h3:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active h3:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.fa-collapsible {
+  color: hsl(195, 62%, 45%);
+  margin-right: 2%;
+}
+
+.content {
+  padding: 0 5%;
+  max-height: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  transition: max-height 0.2s ease-out;
 }
 
 .skill-row {
@@ -195,6 +279,48 @@ hr {
 
 /* RESPONSIVE */
 
+/* NAVBAR */
+@media (max-width: 650px) {
+  .topnav {
+    width: 56.11px;
+    border-radius: 56.11px;
+    background-color: hsla(198, 71%, 85%, 1);
+  }
+
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a:hover {
+   color: hsl(195, 62%, 35%);
+   background-color: hsla(198, 71%, 85%, 1);
+   text-decoration: none;
+   cursor: pointer;
+  }
+
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: fixed;
+    width: 100%;
+  }
+
+  .topnav.responsive a.icon {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
 /* MOBILE */
 @media (max-width: 425px) {
   .top-container {
@@ -233,6 +359,10 @@ hr {
   .skill-row {
     width: 80%;
     text-align: center;
+  }
+
+  .principles {
+    width: 90%;
   }
 
   .computer-image {
@@ -275,6 +405,10 @@ hr {
 
   .skill-row {
     width: 80%;
+  }
+
+  .principles {
+    width: 90%;
   }
 
   .project-row {
