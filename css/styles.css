@@ -41,10 +41,8 @@ body {
 
 h1 {
   margin: 3.125rem auto 0 auto;
-  /* font-family: 'Sacramento', cursive; */
-  /* font-size: 5.625rem; */
   font-family: 'Pacifico', cursive;
-  font-size: 4rem;
+  font-size: 64px;
   color: hsl(195, 62%, 45%);
   line-height: 1.25;
 }
