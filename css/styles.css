@@ -77,6 +77,13 @@ hr {
   width: 75px;
 }
 
+.subtitle {
+  margin-top: 20px;
+  margin-bottom: 73px;
+  font-size: 20px;
+  color: hsl(195, 62%, 45%);
+}
+
 .top-container {
   position: relative;
   padding-top: 99px;
@@ -87,17 +94,6 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.subtitle {
-  margin-top: 20px;
-  margin-bottom: 73px;
-  font-size: 1.25rem;
-  color: hsl(195, 62%, 45%);
 }
 
 .subtitle-link {
@@ -339,7 +335,7 @@ hr {
   }
 
   .subtitle {
-    font-size: 1.1rem;
+    font-size: 20px;
   }
 
   .top-cloud {
