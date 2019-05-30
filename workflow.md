@@ -1,9 +1,5 @@
-#fix h1 break on mobile (font?)
+#contact form page
 
-=navbar
+#cta buttons throughout
 
-#style principles collapsables
-  -borders
-  -border-radius
-  =background-colors for content and hover
-  =maybe cursive font?
+#delete uneccessary files

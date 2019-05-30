@@ -126,15 +126,14 @@ hr {
 
 .bottom-container {
   margin-bottom: 0;
-  /*background-color: #66BFBF;*/
-  background-color: hsl(195, 62%, 65%);
+  background-color: #BEE4F4;
   padding-top: 60px;
 }
 
 .bottom-container p {
   margin-bottom: 0;
   padding: 20px 0;
-  color: #EAF6F6;
+  color: black;
   font-size: 0.75rem;
 }
 
