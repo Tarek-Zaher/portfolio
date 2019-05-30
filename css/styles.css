@@ -193,6 +193,23 @@ hr {
   box-shadow: 0 0 10px #cbdee6;
 }
 
+a.morelink {
+	text-decoration:none;
+	outline: none;
+  color: #0254EB;
+}
+
+a.morelink:visited {
+  color: #0254EB;
+}
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
 .bottom-cloud {
   position: absolute;
   left: 200px;
